@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Micro Project 4 - Pavan Pawar</title>
+        <link rel="stylesheet" href="style.css" />
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+        </style>
+    </head>
+    <body>
+        <div class="main_container">
+            <div class="heading">
+                <h3>calc</h3>
+            </div>
+            <div class="display_screen">
+                <div class="display_value" id="result"></div>
+            </div>
+            <div class="keypad">
+                <div class="key" onClick="insert(7)">7</div>
+                <div class="key" onClick="insert(8)">8</div>
+                <div class="key" onClick="insert(9)">9</div>
+                <div class="key del" onclick="deletenum()">DEL</div>
+                <div class="key" onClick="insert(4)">4</div>
+                <div class="key" onClick="insert(5)">5</div>
+                <div class="key" onClick="insert(6)">6</div>
+                <div class="key" onClick="insert('+')">+</div>
+                <div class="key" onClick="insert(1)">1</div>
+                <div class="key" onClick="insert(2)">2</div>
+                <div class="key" onClick="insert(3)">3</div>
+                <div class="key" onClick="insert('-')">-</div>
+                <div class="key" onClick="insert('.')">.</div>
+                <div class="key" onClick="insert(0)">0</div>
+                <div class="key" onClick="insert('/')">/</div>
+                <div class="key" onClick="insert('*')">X</div>
+                <div class="key2 reset" onClick="clearScreen()">RESET</div>
+                <div class="key2 cal" onclick="calculate()">=</div>
+            </div>
+        </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
